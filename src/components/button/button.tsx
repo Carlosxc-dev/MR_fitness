@@ -1,7 +1,6 @@
 import { Conteiner } from './style'
 
 const telefone = 5535998163938
-const mensagem = 'Ola%20carlos%20Tudo%20bem?'
 
 
 interface link{
