@@ -21,5 +21,19 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
+
+  "files": [
+    "src/styles/style.d.ts"
+  ],
+
+  "plugins": [
+    {
+      "name": "typescript-styled-plugin",
+      "tags": [
+        "styled",
+        "css", /*and others that you like it!*/
+      ]
+    }
+  ],
 }
