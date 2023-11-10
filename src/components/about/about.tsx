@@ -9,7 +9,7 @@ export default function about() {
 		<span>mrfitness !</span>
       </p>
 	
-		<div className='info'>
+		<p className='info'>
 			
 			Localizada em Itajubá MG, nossa academia é um espaço exclusivo de xxx metros quadrados 
 			totalmente dedicado à musculação. Estamos abertos desde xxxx e nos orgulhamos de oferecer uma 
@@ -21,7 +21,7 @@ export default function about() {
 			geral. Oferecemos planos flexíveis, incluindo opções mensais, quadrimestrais e anual, para atender às suas
 			necessidades e preferências individuais.
 			
-		</div>
+		</p>
 
 	  <div className='img'>
 		<div className='retWhite'></div>

@@ -11,5 +11,6 @@ export default createGlobalStyle`
     background-color: ${props => props.theme.colors.backgraund};
     font-family: ${props => props.theme.fonts.fontTitle};
     color: ${props => props.theme.colors.txt};
+    
   }
 `;

@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Conteiner = styled.div`
     width: 100%;
     position: relative;
-    height: 1050px;
+    
     /* margin: -70px;    */
 
     img{
@@ -45,6 +45,7 @@ export const Content = styled.div`
     @media only screen and (max-width : 380px) {
 
         top: 60px;
+        left: 40px;
 
         .title{
             font-size: 60px;
@@ -87,14 +88,19 @@ export const Infos = styled.div`
 
     @media only screen and (max-width : 380px) {
         flex-direction: column;
-
+        align-items: flex-start;
         .bloco{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+            margin-top: 5px;
+            align-items: flex-start;
         
-    }
+        }
+
+        .bloco:nth-child(1) {
+            border-right: none;
+        }
+        .bloco:nth-child(2) {
+            border-right: none;
+        }
     }
     
 

@@ -12,6 +12,7 @@ export const Conteiner = styled.div`
     z-index: -2;
     top: 0px;
 	  opacity: 0.1;
+    width: 100%;
   }
 
   .title {

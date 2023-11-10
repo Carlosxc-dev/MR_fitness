@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const Conteiner = styled.div`
+    width: 100%;
+    //overflow: hidden;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    //grid-template-rows: 30% 70%;
-    width: 100%;
+    grid-template-rows: 30% 70%;
     
     grid-template: 
         " title img" 
@@ -24,12 +25,13 @@ export const Conteiner = styled.div`
     }
     .info{
         grid-area: info;
-        width: 100%;
         margin-left: 77px;
         font-family:  ${props => props.theme.fonts.fontSubTitle};
         font-size: ${props => props.theme.fonts.subtitle};
         line-height: 24px; 
         font-feature-settings: 'clig' off, 'liga' off;
+        display: flex;
+        flex-wrap: wrap;
         
     }
     .img{
@@ -80,7 +82,12 @@ export const Conteiner = styled.div`
         }
 
         .info{
-            display: none;
+            //display: none;
+            padding-right: 20px;
+        }
+
+        .title{
+            font-size: 4rem;
         }
 
         
