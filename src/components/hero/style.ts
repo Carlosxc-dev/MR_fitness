@@ -12,6 +12,12 @@ export const Conteiner = styled.div`
         opacity: 0.3;
         width: 100%;
     }
+
+    @media only screen and (max-width : 380px) {
+        img{
+           height: 600px;
+        }
+    }
 `
 export const Content = styled.div`
     position: absolute;
@@ -34,6 +40,18 @@ export const Content = styled.div`
 
     .btn {
         margin-top: 32px;
+    }
+
+    @media only screen and (max-width : 380px) {
+
+        top: 60px;
+
+        .title{
+            font-size: 60px;
+        }
+        .subTitle{
+            display: none;
+        }
     }
 `
 
@@ -65,6 +83,18 @@ export const Infos = styled.div`
     }
     .bloco:nth-child(2) {
         border-right: 1px solid ${props => props.theme.colors.secundary};
+    }
+
+    @media only screen and (max-width : 380px) {
+        flex-direction: column;
+
+        .bloco{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
     }
     
 

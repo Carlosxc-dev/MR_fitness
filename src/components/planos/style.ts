@@ -25,6 +25,7 @@ export const Conteiner = styled.div`
   .content{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 20px;
     /* gap: 20px; */
     align-items: center;

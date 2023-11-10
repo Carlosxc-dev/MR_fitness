@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Conteiner = styled.div`
   width: 100%;
-  height: 780px;
   margin-top: 100px;
   position: relative;
   z-index: -1;
@@ -36,7 +35,7 @@ export const Conteiner = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0px 20px;
+    gap: 10px 20px;
     width: 100%;
 	  margin-top: 50px;
 
@@ -44,4 +43,16 @@ export const Conteiner = styled.div`
       border: 1px solid ${(props) => props.theme.colors.primary};
     }
   }
+
+  @media only screen and (max-width : 380px) {
+    .imagem{
+      width: 100%;
+      height: 100%;
+    }
+
+    .title{
+      font-size: 5rem;
+    }
+  }
+
 `;

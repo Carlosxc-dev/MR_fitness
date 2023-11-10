@@ -34,7 +34,11 @@ export const Conteiner = styled.div`
         }
     }
     
-    
+    @media only screen and (max-width : 380px) {
+        .nav{
+            display: none;
+        }
+    }
 
 
 `

@@ -11,4 +11,10 @@ export const Conteiner = styled.div`
         text-decoration: none;
         color: ${props => props.theme.colors.secundary};
     }
+
+    @media only screen and (max-width : 380px) {
+        a{
+            display: none;
+        }
+    }
 `

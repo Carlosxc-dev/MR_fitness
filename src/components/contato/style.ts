@@ -6,7 +6,7 @@ export const Conteiner = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 150vh;
+    
     background-color: #222222;
     padding: 60px 0px;
     
@@ -50,6 +50,17 @@ export const Conteiner = styled.div`
             
         }
 
+        
     }
+
+    @media only screen and (max-width : 380px) {
+        .content{
+            display: none;
+        }
+
+        
+    }
+
+
     
 `

@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Conteiner = styled.div`
     display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 30% 70%;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    //grid-template-rows: 30% 70%;
     width: 100%;
-    height: 100vh;
+    
     grid-template: 
         " title img" 
         "info img" ;
@@ -25,15 +25,12 @@ export const Conteiner = styled.div`
     .info{
         grid-area: info;
         width: 100%;
+        margin-left: 77px;
+        font-family:  ${props => props.theme.fonts.fontSubTitle};
+        font-size: ${props => props.theme.fonts.subtitle};
+        line-height: 24px; 
+        font-feature-settings: 'clig' off, 'liga' off;
         
-        p{
-            width: 550px;
-            margin-left: 77px;
-            font-family:  ${props => props.theme.fonts.fontSubTitle};
-            font-size: ${props => props.theme.fonts.subtitle};
-            line-height: 24px; 
-            font-feature-settings: 'clig' off, 'liga' off;
-        }
     }
     .img{
         grid-area: img;
@@ -68,5 +65,24 @@ export const Conteiner = styled.div`
             right: 10px;
             z-index: 0;
         }
+    }
+
+    @media only screen and (max-width : 380px) {
+
+        grid-template-columns: 1fr;
+        grid-template: 
+        "img"
+        "title" 
+        "info" ;
+
+        .img{
+            display: none;
+        }
+
+        .info{
+            display: none;
+        }
+
+        
     }
 `

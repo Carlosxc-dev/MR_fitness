@@ -10,9 +10,9 @@ export default {
     },
 
     fonts: {
-        title: '91px',
-        subtitle: '16px',
-        button: '21px',
+        title: '6rem',
+        subtitle: '1rem',
+        button: '1,31rem',
         fontTitle: 'Bebas Neue',
         fontSubTitle: 'Poppins',
     }

@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Conteiner = styled.div`
   margin-top: 72px;
   width: 100%;
-  height: 100vh;
   position: relative;
 
   img {
@@ -35,5 +34,18 @@ export const Conteiner = styled.div`
 
   .item {
     flex: 1 0 400px;
+  }
+  
+  @media only screen and (max-width : 380px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      padding: 5px 10px;
+      gap: 0px;
+    }
+
+    
   }
 `;
