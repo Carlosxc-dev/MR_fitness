@@ -1,5 +1,5 @@
 import {Conteiner} from './style'
-import img from '../../assets/about.jpg'
+import img from '../../assets/marcus_rafa.png'
 
 export default function about() {
   return (
@@ -11,7 +11,7 @@ export default function about() {
 	
 		<p className='info'>
 			
-			Localizada em Itajubá MG, nossa academia é um espaço exclusivo de xxx metros quadrados 
+			Localizada na R.Dr.Silvestre Ferraz, 546-Pinheirinho, Itajubá-MG.Nossa academia é um espaço exclusivo de xxx metros quadrados 
 			totalmente dedicado à musculação. Estamos abertos desde xxxx e nos orgulhamos de oferecer uma 
 			infraestrutura de primeira classe voltada para todos os públicos, desde iniciantes até avançados,
 			incluindo pessoas de todas as idades, desde jovens até a melhor idade. <br /><br />
@@ -26,7 +26,7 @@ export default function about() {
 	  <div className='img'>
 		<div className='retWhite'></div>
 		<div className='retYellow'></div>
-		<img src={img} alt="" />
+		<img src={img} alt="foto pessoas academia" />
 	  </div>
     </Conteiner>
   )

@@ -9,14 +9,14 @@ export default function Servicos() {
 
       <p className="title">
         Nossos
-        <span> servicos</span>
+        <span> serviços</span>
       </p>
 
       <div className="content">
         <div className="item">
           <Card
             number="01"
-            title="Musculacao"
+            title="Musculação"
             text="Oferecemos sessões de treinamento personalizadas com personal trainers certificados que criam 
 						planos de treino personalizados com base em objetivos individuais"
           />
@@ -24,7 +24,7 @@ export default function Servicos() {
         <div className="item">
           <Card
             number="02"
-            title="Cross fit"
+            title="Crossfit"
             text="Oferecemos sessões de treinamento personalizadas com personal trainers certificados que criam 
 						planos de treino personalizados com base em objetivos individuais"
           />
@@ -40,7 +40,7 @@ export default function Servicos() {
         <div className="item">
           <Card
             number="04"
-            title="Studio musculacao"
+            title="Studio musculação"
             text="Oferecemos sessões de treinamento personalizadas com personal trainers certificados que criam 
 					planos de treino personalizados com base em objetivos individuais"
           />

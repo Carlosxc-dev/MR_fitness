@@ -1,6 +1,7 @@
 import Global_styles from "../styles/global_styles"
 import {ThemeProvider} from 'styled-components'
 import Dark from '../styles/theme/dark'
+import {Conteiner} from './style'
 
 import Navbar from "../components/navbar/navbar"
 import Hero from "../components/hero/hero"
@@ -16,7 +17,9 @@ export default function App() {
 	return (
 		<ThemeProvider theme={Dark}>
 			<Global_styles/>
-			<Navbar />
+			<Conteiner>
+				<Navbar />
+			</Conteiner>
 			<Hero />
 			<About />
 			<Servicos />

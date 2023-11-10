@@ -5,6 +5,7 @@ export default function Footer() {
     return(
         <Conteiner>
             <Navbar/>
+            <p>Feito por <span>Carlos henrique</span></p>
         </Conteiner>
     )
 }

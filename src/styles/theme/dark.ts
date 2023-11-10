@@ -15,5 +15,14 @@ export default {
         button: '1,31rem',
         fontTitle: 'Bebas Neue',
         fontSubTitle: 'Poppins',
+    },
+
+    screens:{
+        laptop_large: '1440px',
+        laptop_medium: '1024px',
+        tablet: '768px',
+        mobile_large: '425px',
+        mobile_medium: '375px',
+        mobile_small: '320px',
     }
 }

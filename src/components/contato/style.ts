@@ -42,6 +42,8 @@ export const Conteiner = styled.div`
             .subtitle{
                 font-family: ${(props) => props.theme.fonts.fontSubTitle};
                 font-size: ${(props) => props.theme.fonts.subtitle};
+                width: 500px;
+                line-height: 2rem;
             }
         }
 

@@ -18,13 +18,13 @@ export default function Treinadores() {
 
 			<div className="content">
 				<div className="item">
-					<Card nome="carlos" info="Rate treiner" imagem={img} />
+					<Card nome="Camilo" info="Personal treiner" imagem={img} />
 				</div>
 				<div className="item">
-					<Card nome="carlos" info="Rate treiner" imagem={img} />
+					<Card nome="Daniel" info="Personal treiner" imagem={img} />
 				</div>
 				<div className="item">
-					<Card nome="carlos" info="Rate treiner" imagem={img} />
+					<Card nome="Marcus" info="Personal treiner" imagem={img} />
 				</div>
 			</div>
 		</Conteiner>
