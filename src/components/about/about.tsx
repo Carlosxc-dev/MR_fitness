@@ -1,5 +1,5 @@
 import {Conteiner} from './style'
-import img from '../../assets/marcus_rafa.png'
+import img from '../../assets/marcus_rafa_atual.jpeg'
 
 export default function about() {
   return (

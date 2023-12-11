@@ -5,7 +5,9 @@ import Button from '../button/button'
 export default function Hero() {
     return(
         <Conteiner id='home'>
-            <img src={img} alt="imagem de academia"/>
+            <picture>
+                <img src={img} alt="imagem de academia"/>
+            </picture>
             <Content >
                 <p className='title'>
                     PRONTO PARA <br />
