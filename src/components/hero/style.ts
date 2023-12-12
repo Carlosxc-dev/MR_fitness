@@ -90,7 +90,7 @@ export const Infos = styled.div`
         flex-direction: column;
         align-items: flex-start;
         .bloco{
-            margin-top: 5px;
+            margin-top: 20px;
             padding: 0px 0px;
             align-items: flex-start;
         

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Conteiner = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
     padding: 5px 0px; 
@@ -11,9 +11,10 @@ export const Conteiner = styled.div`
     width: 100%;
     
     .logo{
+        margin-left: 2.5rem;
         img{
-            width: 3rem;
-            height: 3rem;
+            width: 4rem;
+            height: 4rem;
             object-fit: cover;
         }
     }
