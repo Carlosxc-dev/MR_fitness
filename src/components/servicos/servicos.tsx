@@ -1,11 +1,23 @@
 import { Conteiner } from "./style";
 import Card from "./card/card";
 import img from "../../assets/services.jpg";
+import img_mobile from "../../assets/services_mobile.jpg";
+
+const info = [
+  {
+    id: "1",
+    title: "Aula de Karatê (infantil)",
+    text: "Segunda e quarta 18 - Prof. Robinho"
+  },
+]
 
 export default function Servicos() {
   return (
     <Conteiner id='servicos'>
-      <img src={img} alt="" />
+      <picture>
+        <source media="(max-width: 425px)" srcSet={img_mobile} />
+        <img src={img} alt="image de treino" />
+      </picture>
 
       <p className="title">
         Nossos

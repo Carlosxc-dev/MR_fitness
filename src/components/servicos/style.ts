@@ -49,6 +49,10 @@ export const Conteiner = styled.div`
       flex: 1 0 200px;
     }
 
+    img {
+      object-position: top;
+  }
+
     
   }
 `;

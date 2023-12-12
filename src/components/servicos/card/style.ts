@@ -21,4 +21,9 @@ export const Conteiner = styled.div`
         font-size:  ${props => props.theme.fonts.subtitle};
         
     }
+
+    @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
+
+        
+    }
 `
