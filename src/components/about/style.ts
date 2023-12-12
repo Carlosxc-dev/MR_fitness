@@ -29,9 +29,6 @@ export const Conteiner = styled.div`
         font-family:  ${props => props.theme.fonts.fontSubTitle};
         font-size: ${props => props.theme.fonts.subtitle};
         line-height: 24px; 
-        font-feature-settings: 'clig' off, 'liga' off;
-        display: flex;
-        flex-wrap: wrap;
         
     }
     .img{
@@ -72,22 +69,43 @@ export const Conteiner = styled.div`
     @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
 
         grid-template-columns: 1fr;
+        grid-template-rows: 100%;
         grid-template: 
-        "img"
-        "title" 
-        "info" ;
+        "img" "title" "info" ;
 
         .img{
-            display: none;
+            .retWhite{display: none}
+            .retYellow{display: none}
+            grid-area: img;
+            justify-self: center;
+            align-self: flex-start;
+            padding: 0px;
+
+            img{
+                display: none;
+            }
         }
 
         .info{
             //display: none;
-            padding-right: 20px;
+            margin-left: 0px;
+            padding-right: 0px;
+
+            p{
+                width: 80%;
+                margin: auto;
+            }
+
         }
 
         .title{
-            font-size: 4rem;
+            
+            font-size: 4.5rem;
+            margin: 0px;
+            p{
+                width: 80%;
+                margin: auto;
+            }
         }
 
         
