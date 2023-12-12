@@ -39,11 +39,14 @@ export const Conteiner = styled.div`
   @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
     .content {
       display: flex;
-      flex-direction: column;
       justify-content: flex-start;
       flex-wrap: wrap;
       padding: 5px 10px;
-      gap: 0px;
+      row-gap: 30px;
+    }
+
+    .item {
+      flex: 1 0 200px;
     }
 
     
