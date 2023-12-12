@@ -33,7 +33,7 @@ export const Conteiner = styled.div`
         }
     }
     
-    @media only screen and (max-width : 380px) {
+    @media only screen and (max-width :  ${props => props.theme.screens.mobile_large}) {
         .nav{
             display: none;
         }

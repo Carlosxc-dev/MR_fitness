@@ -1,11 +1,13 @@
 import {Conteiner, Content, Infos} from './style'
 import img from '../../assets/hero.jpg';
+import img_mobile from '../../assets/hero_mobile.jpg';
 import Button from '../button/button'
 
 export default function Hero() {
     return(
         <Conteiner id='home'>
             <picture>
+                <source media="(max-width: 425px)" srcSet={img_mobile}/>
                 <img src={img} alt="imagem de academia"/>
             </picture>
             <Content >

@@ -12,7 +12,7 @@ export default {
     fonts: {
         title: '6rem',
         subtitle: '1rem',
-        button: '1,31rem',
+        button: '1.31rem',
         fontTitle: 'Bebas Neue',
         fontSubTitle: 'Poppins',
     },
@@ -21,7 +21,7 @@ export default {
         laptop_large: '1440px',
         laptop_medium: '1024px',
         tablet: '768px',
-        mobile_large: '425px',
+        mobile_large: '426px',
         mobile_medium: '375px',
         mobile_small: '320px',
     }

@@ -42,7 +42,7 @@ export const Content = styled.div`
         margin-top: 32px;
     }
 
-    @media only screen and (max-width : 380px) {
+    @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
 
         top: 60px;
         left: 40px;

@@ -36,7 +36,7 @@ export const Conteiner = styled.div`
     flex: 1 0 400px;
   }
   
-  @media only screen and (max-width : 380px) {
+  @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
     .content {
       display: flex;
       flex-direction: column;

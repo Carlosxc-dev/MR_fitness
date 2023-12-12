@@ -45,7 +45,7 @@ export const Conteiner = styled.div`
     }
   }
 
-  @media only screen and (max-width : 380px) {
+  @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
     .imagem{
       width: 100%;
       height: 100%;
