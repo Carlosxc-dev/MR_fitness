@@ -86,11 +86,12 @@ export const Infos = styled.div`
         border-right: 1px solid ${props => props.theme.colors.secundary};
     }
 
-    @media only screen and (max-width : 380px) {
+    @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
         flex-direction: column;
         align-items: flex-start;
         .bloco{
             margin-top: 5px;
+            padding: 0px 0px;
             align-items: flex-start;
         
         }
