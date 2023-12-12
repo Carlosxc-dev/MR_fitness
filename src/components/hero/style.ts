@@ -48,7 +48,7 @@ export const Content = styled.div`
         left: 40px;
 
         .title{
-            font-size: 60px;
+            font-size: ${props => props.theme.fonts.fontSubTitle};
         }
         .subTitle{
             display: none;
