@@ -6,15 +6,16 @@ export const Conteiner = styled.div`
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    margin-top: 4rem;
 
     .title {
-    text-align: center;
-    font-family: ${(props) => props.theme.fonts.fontTitle};
-    font-size: ${(props) => props.theme.fonts.title};
+      text-align: center;
+      font-family: ${(props) => props.theme.fonts.fontTitle};
+      font-size: ${(props) => props.theme.fonts.title};
 
-    span {
-      color: ${(props) => props.theme.colors.primary};
-    }
+      span {
+        color: ${(props) => props.theme.colors.primary};
+      }
   }
 
   .subtitle{

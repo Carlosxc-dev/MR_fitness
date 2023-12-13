@@ -3,13 +3,6 @@ import Card from "./card/card";
 import img from "../../assets/services.jpg";
 import img_mobile from "../../assets/services_mobile.jpg";
 
-const info = [
-  {
-    id: "1",
-    title: "Aula de Karatê (infantil)",
-    text: "Segunda e quarta 18 - Prof. Robinho"
-  },
-]
 
 export default function Servicos() {
   return (
@@ -22,6 +15,10 @@ export default function Servicos() {
       <p className="title">
         Nossos
         <span> serviços</span>
+      </p>
+
+      <p className="subtitle">
+        Oferecemos varias opcoes para sua atender sua escolha
       </p>
 
       <div className="content">

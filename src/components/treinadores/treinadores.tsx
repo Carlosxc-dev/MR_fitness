@@ -1,12 +1,16 @@
 import { Conteiner } from "./style";
 import Card from "./cardTreinadores/cardTreinadores";
 import img from "../../assets/treinadores/Image.png";
+import img_mobile from "../../assets/treinadores/treiners_mobile.png";
 import treiners from '../../assets/treiners.png'
 
 export default function Treinadores() {
 	return (
 		<Conteiner id='treinadores'>
-			<img src={treiners} alt="foto de academia" className="imagem"/>
+			<picture>
+				<source media="(max-width: 425px)" srcSet={img_mobile} />
+				<img src={treiners} alt="foto de academia" className="imagem" />
+			</picture>
 
 			<p className="title">
 				Treinadores

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Conteiner = styled.div`
-  margin-top: 72px;
+  margin-top: 4rem;
   width: 100%;
   position: relative;
 
@@ -25,6 +25,13 @@ export const Conteiner = styled.div`
     }
   }
 
+  .subtitle{
+    text-align: center;
+    font-family: ${(props) => props.theme.fonts.fontSubTitle};
+    font-size: ${(props) => props.theme.fonts.subtitle};
+    margin-bottom: 10px;
+  }
+
   .content {
     display: flex;
     gap: 20px;
@@ -37,6 +44,9 @@ export const Conteiner = styled.div`
   }
   
   @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
+
+    padding-bottom: 3rem;
+
     .content {
       display: flex;
       justify-content: flex-start;

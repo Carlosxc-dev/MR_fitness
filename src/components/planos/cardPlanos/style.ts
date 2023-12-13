@@ -10,7 +10,7 @@ export const Conteiner = styled.div`
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        height: 400px;
+        min-height: 400px;
         width: 300px;
         padding: 2px;
 
@@ -43,11 +43,17 @@ export const Conteiner = styled.div`
         .infos{
             font-family: ${(props) => props.theme.fonts.fontSubTitle};
             font-size: 13px;
-            line-height: 50px;
             background-color: #222222;
             width: 100%;
-            flex-grow:1;
             padding: 0 10px;
+            display: flex;
+            flex-direction: column;
+            flex-grow:1;
+
+            span{
+                margin: .8rem 0;
+            }
+           
             
             
         }
