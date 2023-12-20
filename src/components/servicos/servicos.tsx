@@ -5,6 +5,59 @@ import img_mobile from "../../assets/services_mobile.jpg";
 
 
 export default function Servicos() {
+
+  const infos = [
+    {
+      id: 1,
+      number: "01",
+      title: "Aula de Karatê (infantil)",
+      text01: "Segunda e quarta 18 - Prof. Robinho",
+    },
+    {
+      id: 2,
+      number: "02",
+      title: "Musculação para terceira idade",
+      text01: "estúdio mr fitness",
+      text02: "Segunda a sexta",
+      text03: " 08h as 12h professor Mateus",
+      text04: " 14h as 19h professor Jonas" ,
+    },
+    {
+      id: 3,
+      number: "03",
+      title: "Musculação terceiro e quarto andar",
+      text: "Segunda e quarta 18 - Prof. Robinho",
+      text01: "Das 12:30 às 18h professor Camilo",
+      text02: "Das 18h às 22:30h professor Daniel",
+      text03: "Sábados: Das 8h às 14h professor Jonatas",
+      text04: "Domingos: Das 9h às 12h" ,
+      text05: "Feriados: Das 8h as 12h" ,
+    },
+    {
+      id: 4,
+      number: "01",
+      title: "Aula de Karatê (infantil)",
+      text: "Segunda e quarta 18 - Prof. Robinho",
+    },
+    {
+      id: 5,
+      number: "01",
+      title: "Aula de Karatê (infantil)",
+      text: "Segunda e quarta 18 - Prof. Robinho",
+    },
+    {
+      id: 6,
+      number: "01",
+      title: "Aula de Karatê (infantil)",
+      text: "Segunda e quarta 18 - Prof. Robinho",
+    },
+    {
+      id: 7,
+      number: "01",
+      title: "Aula de Karatê (infantil)",
+      text: "Segunda e quarta 18 - Prof. Robinho",
+    },
+  ]
   return (
     <Conteiner id='servicos'>
       <picture>
