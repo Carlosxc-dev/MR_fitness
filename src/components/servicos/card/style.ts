@@ -8,15 +8,15 @@ export const Conteiner = styled.div`
     padding: 15px 25px;
     border: 1px solid ${props => props.theme.colors.primary};
 
-    span:nth-child(1){
+    .number{
         font-size: 38px;
         
     }
-    span:nth-child(2){
+    .title{
         color: ${props => props.theme.colors.primary};
         font-size: 28px;
     }
-    span:nth-child(3){
+    span{
         font-family:  ${props => props.theme.fonts.fontSubTitle};
         font-size:  ${props => props.theme.fonts.subtitle};
         
