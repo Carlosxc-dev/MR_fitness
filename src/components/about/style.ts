@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Conteiner = styled.div`
     width: 100%;
-    //overflow: hidden;
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     grid-template-rows: 30% 70%;
@@ -66,45 +66,68 @@ export const Conteiner = styled.div`
         }
     }
 
+    @media only screen and (max-width : ${props => props.theme.screens.tablet}) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100%;
+        grid-template: 
+        "title" "img" "info" ;
+
+        .title{
+            margin-left: 0px;
+            margin: auto;
+        }
+
+        .img{
+            margin-bottom: 2rem;
+        }
+
+        .info{
+            margin-left: 50px;
+            margin: auto;
+            width: 80%;
+        }
+    }
+
+
     @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
 
         grid-template-columns: 1fr;
         grid-template-rows: 100%;
         grid-template: 
-        "img" "title" "info" ;
+        "title" "img" "info" ;
 
         .img{
             .retWhite{display: none}
             .retYellow{display: none}
             grid-area: img;
             justify-self: center;
-            align-self: flex-start;
+            align-self: center;
             padding: 0px;
+            margin-top: 1rem;
 
             img{
-                display: none;
+                width: 280px;
+                height: 400px;
+                border: 1px solid ${props => props.theme.colors.primary};
             }
         }
 
         .info{
-            //display: none;
             margin-left: 0px;
             padding-right: 0px;
+            margin: auto;
 
             p{
-                width: 80%;
-                margin: auto;
+                width: 100%;
             }
 
         }
 
         .title{
-            
             font-size: 4.5rem;
-            margin: 0px;
+            margin: auto;
             p{
-                width: 80%;
-                margin: auto;
+                width: 100%;
             }
         }
 
