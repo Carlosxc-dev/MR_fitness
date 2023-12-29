@@ -8,7 +8,7 @@ export const Conteiner = styled.div`
     grid-template-rows: 30% 70%;
     
     grid-template: 
-        " title img" 
+        "title img" 
         "info img" ;
          
     

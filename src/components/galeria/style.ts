@@ -32,6 +32,11 @@ export const Conteiner = styled.div`
     gap: 20px;
     margin-top: 80px;
 
+    .item{
+      width: 300px;
+      height: 300px;
+    }
+
     .item:nth-child(odd){
         border: 1px solid ${(props) => props.theme.colors.primary};
     }
