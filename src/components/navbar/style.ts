@@ -5,13 +5,12 @@ export const Conteiner = styled.div`
     justify-content: space-between;
     align-items: center;
     
-    padding: 5px 0px; 
+    padding: 5px 10px; 
     background: transparent;
     /* position: fixed; */
     width: 100%;
     
     .logo{
-        margin-left: 2.5rem;
         img{
             width: 4rem;
             height: 4rem;
@@ -21,12 +20,13 @@ export const Conteiner = styled.div`
     
     .nav{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
+        width: 80%;
         
         .item{
             font-size: ${props => props.theme.fonts.button};
-            margin-right: 40px;
+            //margin-right: 40px;
             cursor: pointer;
         }
         .item:nth-child(1){
@@ -34,9 +34,14 @@ export const Conteiner = styled.div`
         }
     }
     
-    @media only screen and (max-width :  ${props => props.theme.screens.mobile_large}) {
+    @media only screen and (max-width :  ${props => props.theme.screens.tablet}) {
+
+        padding: 5px 10px;
         .nav{
             display: none;
+        }
+        .logo{
+            margin-left: 0;
         }
     }
 

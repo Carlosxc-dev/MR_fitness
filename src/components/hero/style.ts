@@ -13,9 +13,16 @@ export const Conteiner = styled.div`
         width: 100%;
     }
 
+    @media only screen and (max-width : ${props => props.theme.screens.laptop_medium}) {
+        
+        img{
+           height: 800px;
+        }
+    }
+
     @media only screen and (max-width : 380px) {
         img{
-           height: 600px;
+           //height: 600px;
         }
     }
 `
@@ -40,6 +47,10 @@ export const Content = styled.div`
 
     .btn {
         margin-top: 32px;
+    }
+
+    @media only screen and (max-width : ${props => props.theme.screens.laptop_medium}) {
+        top: 40px;
     }
 
     @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
@@ -84,6 +95,16 @@ export const Infos = styled.div`
     }
     .bloco:nth-child(2) {
         border-right: 1px solid ${props => props.theme.colors.secundary};
+    }
+
+    @media only screen and (max-width : ${props => props.theme.screens.tablet}) {
+        .bloco{
+            margin-top: 1.6rem;
+            padding: 0px 0px;
+        
+        }
+
+        
     }
 
     @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
