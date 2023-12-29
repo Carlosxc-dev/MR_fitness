@@ -8,8 +8,8 @@ export default function Hero() {
     return(
         <Conteiner id='home'>
             <picture>
-                <source media="(max-width: 768px)" srcSet={img_tablet}/>
                 <source media="(max-width: 425px)" srcSet={img_mobile}/>
+                <source media="(max-width: 768px)" srcSet={img_tablet}/>
                 <img src={img} alt="imagem de academia"/>
             </picture>
             <Content >

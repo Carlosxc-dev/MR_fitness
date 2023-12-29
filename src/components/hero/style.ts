@@ -22,7 +22,7 @@ export const Conteiner = styled.div`
 
     @media only screen and (max-width : 380px) {
         img{
-           //height: 600px;
+           height: 600px;
         }
     }
 `
@@ -44,13 +44,21 @@ export const Content = styled.div`
         width: 660px;
         color: ${props => props.theme.colors.txt};
     }
-
+    
     .btn {
         margin-top: 32px;
     }
-
+    
+    
     @media only screen and (max-width : ${props => props.theme.screens.laptop_medium}) {
         top: 40px;
+    }
+
+    @media only screen and (max-width : ${props => props.theme.screens.tablet}) {
+        .subTitle{
+            width: 480px;
+        }
+
     }
 
     @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
@@ -59,12 +67,26 @@ export const Content = styled.div`
         left: 40px;
 
         .title{
-            font-size: ${props => props.theme.fonts.fontSubTitle};
+            font-size: 5rem;
         }
         .subTitle{
             display: none;
         }
+        .btn{
+            display: none;
+        }
     }
+
+    @media only screen and (max-width : ${props => props.theme.screens.mobile_medium}) {
+        top: 30px;
+        left: 20px;
+        .title{
+            font-size: 4rem;
+        }
+    }
+
+
+    
 `
 
 export const Infos = styled.div`
@@ -100,12 +122,14 @@ export const Infos = styled.div`
     @media only screen and (max-width : ${props => props.theme.screens.tablet}) {
         .bloco{
             margin-top: 1.6rem;
-            padding: 0px 0px;
-        
         }
-
         
+        :nth-child(1){
+            padding-left: 0px;
+            
+        }
     }
+    
 
     @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
         flex-direction: column;
@@ -113,7 +137,7 @@ export const Infos = styled.div`
         .bloco{
             margin-top: 1.6rem;
             padding: 0px 0px;
-            align-items: flex-start;
+            width: 50%;
         
         }
 
@@ -122,6 +146,17 @@ export const Infos = styled.div`
         }
         .bloco:nth-child(2) {
             border-right: none;
+        }
+    }
+
+    @media only screen and (max-width : ${props => props.theme.screens.mobile_medium}) {
+
+        .bloco > div:nth-child(1){
+            font-size: 40px;
+        }
+
+        .bloco > div:nth-child(2){
+            font-size: .8rem;
         }
     }
     
