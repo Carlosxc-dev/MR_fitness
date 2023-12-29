@@ -7,6 +7,7 @@ export const Conteiner = styled.div`
   z-index: -1;
   padding-top: 40px;
 
+
   
   .imagem{
     position: absolute;
@@ -30,6 +31,7 @@ export const Conteiner = styled.div`
     text-align: center;
     font-family: ${(props) => props.theme.fonts.fontSubTitle};
     font-size: ${(props) => props.theme.fonts.subtitle};
+    padding: 0px 10px;
   }
 
   .content {
@@ -47,16 +49,10 @@ export const Conteiner = styled.div`
   }
 
   @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
-
     padding-bottom: 3rem;
 
-    .imagem{
-      width: 100%;
-      height: 100%;
-    }
-
     .title{
-      font-size: 5rem;
+      font-size: 4rem;
     }
   }
 

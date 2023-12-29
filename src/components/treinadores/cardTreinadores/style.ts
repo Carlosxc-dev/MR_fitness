@@ -45,4 +45,15 @@ export const Conteiner = styled.div`
       height: 25px;
     }
   }
+
+  @media only screen and (max-width : ${props => props.theme.screens.mobile_small}) {
+    width: 300px;
+	  height: 450px;
+
+    .imagem3{
+      width: 300px;
+      height: 450px;
+    }
+  }
+
 `;

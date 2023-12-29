@@ -7,7 +7,6 @@ export const Conteiner = styled.div`
     
     padding: 5px 10px; 
     background: transparent;
-    /* position: fixed; */
     width: 100%;
     
     .logo{
@@ -26,7 +25,6 @@ export const Conteiner = styled.div`
         
         .item{
             font-size: ${props => props.theme.fonts.button};
-            //margin-right: 40px;
             cursor: pointer;
         }
         .item:nth-child(1){

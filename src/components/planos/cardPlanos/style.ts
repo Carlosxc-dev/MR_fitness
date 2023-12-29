@@ -11,8 +11,8 @@ export const Conteiner = styled.div`
         justify-content: flex-start;
         align-items: center;
         min-height: 400px;
-        width: 300px;
-        padding: 2px;
+        width: 280px;
+        padding-top: 5px ;
 
         transition-duration: 0.5s;
         transition-timing-function: ease-in;
@@ -65,6 +65,7 @@ export const Conteiner = styled.div`
             justify-content: center;
             flex-grow:1;
             border-radius: 0 0 15px 15px;
+            padding-bottom: 10px;
             a{
                 width: 107px;
                 height: 30px;

@@ -83,6 +83,12 @@ export default function Planos() {
 
             <div className='content'>
                 <CardPlanos 
+                    itens={infos[3]}
+                />
+                <CardPlanos 
+                    itens={infos[4]}
+                />
+                <CardPlanos 
                     itens={infos[0]}
                 />
                 <CardPlanos 
@@ -90,12 +96,6 @@ export default function Planos() {
                 />
                 <CardPlanos 
                     itens={infos[2]}
-                />
-                <CardPlanos 
-                    itens={infos[3]}
-                />
-                <CardPlanos 
-                    itens={infos[4]}
                 />
               
             </div>

@@ -11,6 +11,7 @@ export const Conteiner = styled.div`
     padding: 60px 0px;
     
     .content{
+        margin-top: 6rem;
         width: 1100px;
         height: 604px;
         background-image: url(${img});
@@ -55,9 +56,46 @@ export const Conteiner = styled.div`
         
     }
 
-    @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
+    @media only screen and (max-width : ${props => props.theme.screens.tablet}) {
+        
         .content{
-            display: none;
+            
+            img{
+                display: none;
+            }
+            
+            margin-top: 0px;
+            background-image: none;
+            width: 100%;
+            height: auto;
+            padding: 0px 0px;
+            
+            .contact{
+                position: static;
+                right: 0px;
+                top: 0px;
+                align-items: center;
+
+                .title {
+                    width: 90%;
+                    font-size: 4rem;
+                    text-align: center;
+
+                }
+                .subtitle{
+                    font-size: ${(props) => props.theme.fonts.subtitle};
+                    width: 80%;
+                    text-align: justify;
+                    margin: auto;
+                }
+            }
+
+            .btn1{
+                margin: auto;
+                margin-top: 30px;
+                
+            }
+
         }
 
         

@@ -1,11 +1,18 @@
 import {Conteiner} from './style'
-import Navbar from '../navbar/navbar'
+import Img from '../../assets/logowhite.jpeg'
 
 export default function Footer() {
+    const link = "https://carlosxc-dev.github.io/Portifolio/";
     return(
         <Conteiner>
-            <Navbar/>
-            <p>Feito por <span>Carlos henrique</span></p>
+           
+            <img src={Img} alt="imagem de logo" />
+            
+            <p>Feito por
+                <a href={link} target='_blank'> Carlos Henrique</a>
+            </p>
+           
+
         </Conteiner>
     )
 }
