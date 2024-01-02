@@ -54,7 +54,7 @@ export const Conteiner = styled.div`
     padding-bottom: 3rem;
 
     .title{
-      font-size: 4rem;
+      font-size: 4.45rem;
     }
   }
 
