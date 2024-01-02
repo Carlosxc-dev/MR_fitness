@@ -25,7 +25,7 @@ export const Conteiner = styled.div`
     background-color: #000000;
     opacity: 0.7;
     width: 100%;
-    padding: 20px 0px;
+    padding: 19px 0px;
     
 
     .title {

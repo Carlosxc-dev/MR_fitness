@@ -4,17 +4,19 @@ export const Conteiner = styled.div`
   width: 100%;
   margin-top: 100px;
   position: relative;
-  z-index: -1;
   padding-top: 40px;
+  z-index: 0;
 
 
   
   .imagem{
     position: absolute;
-    z-index: -2;
-    top: 0px;
-	  opacity: 0.1;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    z-index: -1;
+    filter: opacity(15%);
   }
 
   .title {

@@ -17,16 +17,6 @@ export default function Navbar() {
             </span>
             <div className='nav'>
                 <Link
-                    to='home'
-                    className='item'
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-10}
-                    duration={1000}
-
-                >Home</Link>
-                <Link
                     to='about'
                     className='item'
                     activeClass="active"
