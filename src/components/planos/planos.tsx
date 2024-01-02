@@ -15,7 +15,7 @@ export default function Planos() {
             txt04: "Domingos das 9h as 12h",
             txt05: "Feriados das 8h as 12h",
             btnName: "Aderir",
-            msg: "Prezada%20equipe%20MRFITNESS,%0A%0AEspero%20que%20estejam%20bem.%20Estou%20interessado(a)%20em%20aderir%20ao%20plano%20MENSAL%LIVRE.%20Gostaria%20de%20obter%20mais%20informações%20sobre%20esse%20plano,%20como%20valores,%20benefícios%20inclusos,%20horários%20disponíveis%20e%20qualquer%20detalhe%20adicional%20relevante.%0A%0AAtenciosamente"
+            msg: "Prezada%20equipe%20MRFITNESS,%0A%0AEspero%20que%20estejam%20bem.%20Estou%20interessado(a)%20em%20aderir%20ao%20plano%20MENSAL%20LIVRE.%20Gostaria%20de%20obter%20mais%20informações%20sobre%20esse%20plano,%20como%20valores,%20benefícios%20inclusos,%20horários%20disponíveis%20e%20qualquer%20detalhe%20adicional%20relevante.%0A%0AAtenciosamente"
         },
         {
             id: 2,
@@ -28,7 +28,7 @@ export default function Planos() {
             txt04: "Domingos das 9h as 12h",
             txt05: "Feriados das 8h as 12h",
             btnName: "Aderir",
-            msg: "Prezada%20equipe%20MRFITNESS,%0A%0AEspero%20que%20estejam%20bem.%20Estou%20interessado(a)%20em%20aderir%20ao%20plano%20MENSAL%ECONOMICO.%20Gostaria%20de%20obter%20mais%20informações%20sobre%20esse%20plano,%20como%20valores,%20benefícios%20inclusos,%20horários%20disponíveis%20e%20qualquer%20detalhe%20adicional%20relevante.%0A%0AAtenciosamente"
+            msg: "Prezada%20equipe%20MRFITNESS,%0A%0AEspero%20que%20estejam%20bem.%20Estou%20interessado(a)%20em%20aderir%20ao%20plano%20MENSAL%20ECONOMICO.%20Gostaria%20de%20obter%20mais%20informações%20sobre%20esse%20plano,%20como%20valores,%20benefícios%20inclusos,%20horários%20disponíveis%20e%20qualquer%20detalhe%20adicional%20relevante.%0A%0AAtenciosamente"
         },
         {
             id: 3,
@@ -54,7 +54,7 @@ export default function Planos() {
             txt04: "5x na semana - R$100,00",
             txt05: "Fechando o plano no estúdio , o aluno obtém acesso em todos os andares de musculação da academia.",
             btnName: "Aderir",
-            msg: "Prezada%20equipe%20MRFITNESS,%0A%0AEspero%20que%20estejam%20bem.%20Estou%20interessado(a)%20em%20aderir%20ao%20plano%20PERSONAL%ESTUDIO.%20Gostaria%20de%20obter%20mais%20informações%20sobre%20esse%20plano,%20como%20valores,%20benefícios%20inclusos,%20horários%20disponíveis%20e%20qualquer%20detalhe%20adicional%20relevante.%0A%0AAtenciosamente"
+            msg: "Prezada%20equipe%20MRFITNESS,%0A%0AEspero%20que%20estejam%20bem.%20Estou%20interessado(a)%20em%20aderir%20ao%20plano%20PERSONAL%20ESTUDIO.%20Gostaria%20de%20obter%20mais%20informações%20sobre%20esse%20plano,%20como%20valores,%20benefícios%20inclusos,%20horários%20disponíveis%20e%20qualquer%20detalhe%20adicional%20relevante.%0A%0AAtenciosamente"
         },
         {
             id: 5,
@@ -67,7 +67,7 @@ export default function Planos() {
             txt04: "5x na semana - R$150,00",
             txt05: "Fechando o plano no estúdio, o aluno obtém acesso em todos os andares de musculação da academia.",
             btnName: "Aderir",
-            msg: "Prezada%20equipe%20MRFITNESS,%0A%0AEspero%20que%20estejam%20bem.%20Estou%20interessado(a)%20em%20aderir%20ao%20plano%20MUSCULACAO%ESTUDIO.%20Gostaria%20de%20obter%20mais%20informações%20sobre%20esse%20plano,%20como%20valores,%20benefícios%20inclusos,%20horários%20disponíveis%20e%20qualquer%20detalhe%20adicional%20relevante.%0A%0AAtenciosamente"
+            msg: "Prezada%20equipe%20MRFITNESS,%0A%0AEspero%20que%20estejam%20bem.%20Estou%20interessado(a)%20em%20aderir%20ao%20plano%20MUSCULACAO%20ESTUDIO.%20Gostaria%20de%20obter%20mais%20informações%20sobre%20esse%20plano,%20como%20valores,%20benefícios%20inclusos,%20horários%20disponíveis%20e%20qualquer%20detalhe%20adicional%20relevante.%0A%0AAtenciosamente"
         },
     ]
     return (
