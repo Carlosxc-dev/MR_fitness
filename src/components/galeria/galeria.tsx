@@ -22,7 +22,7 @@ export default function Galeria() {
       <p className="subtitle">Explore Nossa Galeria de Imagens</p>
 
       <div className="imgConteiner">
-        <video className="item" width="750" height="500" controls >
+        <video className="item" width="750" height="500" controls> 
           <source src={video} type="video/mp4"/>
         </video>
         <img className="item" src={img1} alt="imagem de academia" />
