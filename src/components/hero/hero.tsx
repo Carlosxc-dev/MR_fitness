@@ -32,15 +32,15 @@ export default function Hero() {
 
                 <Infos>
                     <div className='bloco'>
-                        <div>10+</div>
+                        <div>2+</div>
                         <div>Anos de experiencia</div>
                     </div>
                     <div className='bloco'>
-                        <div>15k+</div>
+                        <div>5k+</div>
                         <div>Membros aderiram</div>
                     </div>
                     <div className='bloco'>
-                        <div>10k+</div>
+                        <div>5k+</div>
                         <div>Alunos felizes</div>
                     </div>
                 </Infos>

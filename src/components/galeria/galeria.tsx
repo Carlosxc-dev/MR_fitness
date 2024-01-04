@@ -10,6 +10,7 @@ import img8 from '../../assets/galeria/academia09.jpeg'
 import img9 from '../../assets/galeria/academia10.jpeg'
 import img10 from '../../assets/galeria/academia11.jpeg'
 import img11 from '../../assets/galeria/academia06.jpeg'
+import video from '../../assets/videoo.mp4'
 
 export default function Galeria() {
   return (
@@ -21,6 +22,9 @@ export default function Galeria() {
       <p className="subtitle">Explore Nossa Galeria de Imagens</p>
 
       <div className="imgConteiner">
+        <video className="item" width="750" height="500" controls >
+          <source src={video} type="video/mp4"/>
+        </video>
         <img className="item" src={img1} alt="imagem de academia" />
         <img className="item" src={img2} alt="imagem de academia" />
         <img className="item" src={img3} alt="imagem de academia" />

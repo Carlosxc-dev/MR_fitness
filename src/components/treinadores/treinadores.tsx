@@ -2,6 +2,7 @@ import { Conteiner } from "./style";
 import Card from "./cardTreinadores/cardTreinadores";
 import img from "../../assets/treinadores/Image.png";
 import img_mobile from "../../assets/treinadores/treiners_mobile.png";
+import img_tablet from "../../assets/treiners_tablet.png";
 import treiners from '../../assets/treiners.png'
 
 export default function Treinadores() {
@@ -9,6 +10,7 @@ export default function Treinadores() {
 		<Conteiner id='treinadores'>
 			<picture>
 				<source media="(max-width: 425px)" srcSet={img_mobile} />
+				<source media="(max-width: 768px)" srcSet={img_tablet} />
 				<img src={treiners} alt="foto de academia" className="imagem" />
 			</picture>
 
