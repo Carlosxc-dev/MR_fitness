@@ -21,9 +21,31 @@ export const Conteiner = styled.div`
 
     @media only screen and (max-width : ${props => props.theme.screens.tablet}) {
         max-width: 70%;
+
+        .video {
+            height: 530px;
+        }
     }
 
     @media only screen and (max-width : ${props => props.theme.screens.mobile_large}) {
         max-width: 90%;
+
+        .video {
+            height: 380px;
+        }
+    }
+    @media only screen and (max-width : ${props => props.theme.screens.mobile_medium}) {
+        max-width: 90%;
+
+        .video {
+            height: 334px;
+        }
+    }
+    @media only screen and (max-width : ${props => props.theme.screens.mobile_small}) {
+        max-width: 90%;
+
+        .video {
+            height: 285px;
+        }
     }
 `
