@@ -17,7 +17,7 @@ import img8 from '../../assets/galeria/academia09.jpeg'
 import img9 from '../../assets/galeria/academia10.jpeg'
 import img10 from '../../assets/galeria/academia11.jpeg'
 import img11 from '../../assets/galeria/academia06.jpeg'
-import video from '../../assets/videoo.mp4'
+// import video from '../../assets/videoo.mp4'
 import { Navigation, Pagination } from 'swiper/modules'
 
 export default function Caroucel() {
