@@ -4,7 +4,10 @@ export const Conteiner = styled.div`
 
     max-width: 60%;
     margin-top: 2rem;
-    padding: 10px;
+    /* border: 2px solid ${(props) => props.theme.colors.primary}; */
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, ${(props) => props.theme.colors.primary}, ${(props) => props.theme.colors.secundary});
+    border-image-slice: 1;
 
     img {
         width: 100%;
