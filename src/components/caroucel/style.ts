@@ -13,6 +13,11 @@ export const Conteiner = styled.div`
         width: 100%;
     }
 
+    .video {
+        width: 100%;
+        height: 780px;
+    }
+
 
     @media only screen and (max-width : ${props => props.theme.screens.tablet}) {
         max-width: 70%;
