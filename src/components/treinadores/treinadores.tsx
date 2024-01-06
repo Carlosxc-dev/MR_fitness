@@ -1,9 +1,11 @@
 import { Conteiner } from "./style";
 import Card from "./cardTreinadores/cardTreinadores";
-import img from "../../assets/treinadores/Image.png";
+import treinador01 from "../../assets/treinador_01.jpeg";
+import treinador03 from "../../assets/treinador_02_mod.jpeg";
 import img_mobile from "../../assets/treinadores/treiners_mobile.png";
 import img_tablet from "../../assets/treiners_tablet.png";
 import treiners from '../../assets/treiners.png'
+import img from '../../assets/treinadores/Image.png'
 
 export default function Treinadores() {
 	return (
@@ -24,10 +26,10 @@ export default function Treinadores() {
 
 			<div className="content">
 				<div className="item">
-					<Card nome="Camilo" info="Personal treiner" imagem={img} />
+					<Card nome="Camilo" info="Personal treiner" imagem={treinador01} />
 				</div>
 				<div className="item">
-					<Card nome="Daniel" info="Personal treiner" imagem={img} />
+					<Card nome="Mateus" info="Personal treiner" imagem={treinador03} />
 				</div>
 				<div className="item">
 					<Card nome="Marcus" info="Personal treiner" imagem={img} />
