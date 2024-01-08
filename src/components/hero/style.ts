@@ -67,10 +67,14 @@ export const Content = styled.div`
         left: 40px;
 
         .title{
-            font-size: 5rem;
+            font-size: 5.5rem;
+            margin-bottom: 3rem;
         }
         .subTitle{
-            display: none;
+            //display: none;
+            width: 80%;
+            text-align: justify;
+            line-height: 2rem;
         }
         .btn{
             display: none;
