@@ -30,7 +30,7 @@ export default function Hero() {
                     />
                 </div>
 
-                <Infos>
+                {/* <Infos>
                     <div className='bloco'>
                         <div>2+</div>
                         <div>Anos de experiencia</div>
@@ -43,7 +43,7 @@ export default function Hero() {
                         <div>5k+</div>
                         <div>Alunos felizes</div>
                     </div>
-                </Infos>
+                </Infos> */}
             </Content>
         </Conteiner>
     )
