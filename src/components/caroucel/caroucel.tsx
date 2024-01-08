@@ -17,6 +17,7 @@ import img8 from '../../assets/galeria/academia09.jpeg'
 import img9 from '../../assets/galeria/academia10.jpeg'
 import img10 from '../../assets/galeria/academia11.jpeg'
 import img11 from '../../assets/galeria/academia06.jpeg'
+import logo from '../../assets/logowhite.jpeg'
 import video from '../../assets/videoo.mp4'
 import { Navigation, Pagination } from 'swiper/modules'
 
@@ -39,8 +40,8 @@ export default function Caroucel() {
                         {
                             index == 0 ?
 
-                                <video className='video' controls autoPlay>
-                                    <source src={slide} type="video/mp4" />
+                                <video className='video' controls autoPlay poster={logo}>
+                                    <source src={slide} type="video/mp4"/>
                                 </video>
                                 :
                                 <img src={slide} alt={slide} />
