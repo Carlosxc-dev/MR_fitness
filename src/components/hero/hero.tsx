@@ -1,4 +1,4 @@
-import {Conteiner, Content, Infos} from './style'
+import {Conteiner, Content } from './style'
 import img from '../../assets/hero.jpg';
 import img_mobile from '../../assets/hero_mobile.jpg';
 import img_tablet from '../../assets/hero_tablet.jpg';
