@@ -41,7 +41,7 @@ export default function Treinadores() {
 				{/* <div className="item">
 					<Card nome="Vinicius" info="Personal treiner" imagem={treinador03} />
 				</div> */}
-				
+
 			</div>
 		</Conteiner>
 	);
