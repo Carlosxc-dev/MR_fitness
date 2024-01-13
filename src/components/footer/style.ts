@@ -37,7 +37,8 @@ export const Conteiner = styled.div`
         width: 100%;
         display: flex;
         justify-content: center;
-        padding: 20px 0px ;
+        padding: 20px 10px ;
+        text-align: center;
     }
     
 `
