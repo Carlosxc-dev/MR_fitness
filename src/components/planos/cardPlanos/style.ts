@@ -67,7 +67,8 @@ export const Conteiner = styled.div`
             border-radius: 0 0 15px 15px;
             padding-bottom: 10px;
             a{
-                width: 107px;
+                /* width: 120px;*/
+                display: inline-block; 
                 height: 30px;
                 padding: 6px 49px 6px 38px;
                 border-radius: 30px;

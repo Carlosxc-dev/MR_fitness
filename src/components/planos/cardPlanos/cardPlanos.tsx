@@ -1,5 +1,6 @@
 import { Conteiner } from "./style"
 import { BsCheck2Circle } from 'react-icons/bs'
+import { FaWhatsapp } from "react-icons/fa";
 
 interface card {
 
@@ -58,7 +59,7 @@ export default function cardPlanos(props: card) {
                 </div>
 
                 <div className="btn">
-                    <a href={link} target='_blank'>{props.itens.btnName}</a>
+                    <a href={link} target='_blank'><FaWhatsapp /> {props.itens.btnName}</a>
                 </div>
             </div>
 

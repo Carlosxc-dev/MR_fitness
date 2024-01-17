@@ -1,7 +1,7 @@
 import { Conteiner } from "./style";
 import Card from "./card/card";
-import img from "../../assets/services.jpg";
-import img_mobile from "../../assets/services_mobile.jpg";
+import img from "../../assets/services_desktop_ofc.jpg";
+import img_mobile from "../../assets/services_mobile_ofc.jpg";
 
 
 export default function Servicos() {
