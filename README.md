@@ -1,10 +1,6 @@
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 
-<p align="center">
-    <img src="./screen2.png" alt="Image Example" width="700px">
-</p>
-
 <div align="center">
 
 ![react][REACT__BADGE]
@@ -23,6 +19,10 @@
   <a href="#started">App Routes</a> • 
   <a href="#colab">Collaborators</a> •
  <a href="#contribute">Contribute</a>
+</p>
+
+<p align="center">
+    <img src="./screen2.png" alt="Image Example" width="800px">
 </p>
 
 <h2 id="about">📌 About</h2>
