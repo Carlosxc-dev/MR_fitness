@@ -1,7 +1,11 @@
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 
-<h1 align="center" style="font-weight: bold;">Portifolio 💻</h1>
+<p align="center">
+    <img src="./screen2.png" alt="Image Example" width="700px">
+</p>
+
+<div align="center">
 
 ![react][REACT__BADGE]
 ![typescript][TYPESCRIPT__BADGE]
@@ -9,16 +13,16 @@
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
+</div>
+
+<h1 align="center" style="font-weight: bold;">Portifolio 💻</h1>
+
 <p align="center">
  <a href="#about">About</a> • 
  <a href="#started">Getting Started</a> • 
   <a href="#started">App Routes</a> • 
   <a href="#colab">Collaborators</a> •
  <a href="#contribute">Contribute</a>
-</p>
-
-<p align="center">
-    <img src="./screen2.png" alt="Image Example" width="700px">
 </p>
 
 <h2 id="about">📌 About</h2>
