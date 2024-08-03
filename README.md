@@ -1,6 +1,8 @@
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 
+<h1 align="center" style="font-weight: bold;">Portifolio 💻</h1>
+
 <div align="center">
 
 ![react][REACT__BADGE]
@@ -10,8 +12,6 @@
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
-
-<h1 align="center" style="font-weight: bold;">Portifolio 💻</h1>
 
 <p align="center">
  <a href="#about">About</a> • 
